@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-normalFont;
+        -webkit-font-smoothing: antialiased;
+    }
+}
+
+@layer components {
+    .span {
+        @apply text-white cursor-pointer hover:opacity-75 transition-colors duration-150;
+    }
+}
